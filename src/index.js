@@ -1,13 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./components/app";
-import { ApiServiceProvider } from "./components/api-service-context";
-import { MohomeApiService, TestService } from "./services";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/app';
 
-const apiService = new TestService();
 ReactDOM.render(
-    <ApiServiceProvider value={apiService}>
         <App />
-    </ApiServiceProvider>,
-    document.getElementById("root")
-);
+    , document.getElementById('root'));
+
