@@ -1,17 +1,72 @@
 export default class TestService {
   _album = {
     ids: [
-      { id: 1, title: "lolkek", count: 3, photo_ids: [1] },
-      { id: 2, title: "placeholder", count: 8, photo_ids: [1] },
-      { id: 3, title: 123, count: 32, photo_ids: [2] },
-      { id: 4, title: 1233, count: 35, photo_ids: [3] },
-      { id: 5, title: "asd", count: 13, photo_ids: [1] },
-      { id: 6, title: "cu", count: 3, photo_ids: [1] },
-      { id: 7, title: 228, count: 4, photo_ids: [1] },
-      { id: 8, title: 875, count: 5, photo_ids: [1] },
-      { id: 9, title: "test", count: 6, photo_ids: [1] },
-      { id: 10, title: 1, count: 8, photo_ids: [1] },
-      { id: 11, title: 2, count: 3, photo_ids: [1] }
+      {
+        id: 1,
+        title: "lolkek",
+        count: 3,
+        photo_ids: [1]
+      },
+      {
+        id: 2,
+        title: "placeholder",
+        count: 8,
+        photo_ids: [1]
+      },
+      {
+        id: 3,
+        title: 123,
+        count: 32,
+        photo_ids: [2]
+      },
+      {
+        id: 4,
+        title: 1233,
+        count: 35,
+        photo_ids: [3]
+      },
+      {
+        id: 5,
+        title: "asd",
+        count: 13,
+        photo_ids: [1]
+      },
+      {
+        id: 6,
+        title: "cu",
+        count: 3,
+        photo_ids: [1]
+      },
+      {
+        id: 7,
+        title: 228,
+        count: 4,
+        photo_ids: [1]
+      },
+      {
+        id: 8,
+        title: 875,
+        count: 5,
+        photo_ids: [1]
+      },
+      {
+        id: 9,
+        title: "test",
+        count: 6,
+        photo_ids: [1]
+      },
+      {
+        id: 10,
+        title: 1,
+        count: 8,
+        photo_ids: [1]
+      },
+      {
+        id: 11,
+        title: 2,
+        count: 3,
+        photo_ids: [1]
+      }
     ]
   };
   _photos = {

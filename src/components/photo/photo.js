@@ -24,7 +24,7 @@ class Photo extends Component {
           <div className="albums-bar  left-right-bar">
             <div className="albums-bar-left">
               <div className="albums-title">
-                My albums <span className="albums-count">0</span>
+                My albums <span className="albums-count">{album.length}</span>
               </div>
             </div>
             <div className="albums-bar-right">
@@ -37,7 +37,11 @@ class Photo extends Component {
               </div>
             </div>
           </div>
-          <div className="albums-panel">
+          <div
+            className={`albums-panel ${
+              album.length > 4 ? "able-to-expanded" : ""
+            }`}
+          >
             <div className="container">
               <div className="row">
                 {album.slice(0, 4).map(e => (

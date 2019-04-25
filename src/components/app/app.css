@@ -2,13 +2,7 @@ body{
     background-color: #e5edf4;
 }
 
-.left-right-bar {
-    color: #4582ec;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .panel {
     overflow: auto;
