@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://anothery.github.io/mohome-front",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^1.6.0",
     "bootstrap": "^4.3.1",
     "js-cookie": "^2.2.1",
     "react": "^16.11.0",
